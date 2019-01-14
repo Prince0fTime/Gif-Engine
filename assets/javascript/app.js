@@ -108,16 +108,11 @@ window.onload = function () {
         console.log(numberOfGifs);
         //is Search empty?
         if (Search !== "") {
-            for (var i = 0; i < topics.length; i++) {
-                var str1 = Search.replace(/\s+/g, '');
-                var str2 = topics[i].replace(/\s+/g, '');
-                 if (str1 !== str2) {
+                 if ($.inArray( Search, topics ) === -1) {
                   topics.push(Search);
-                      Break;
-            };
-            
-      
-        };
+                      
+                  };
+         
             //topics.push(Search);
             // renderButtons function call, rendering the list of buttons
             renderButtons();
