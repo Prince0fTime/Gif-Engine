@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gif Engine</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <script type="text/javascript" src="assets/javascript/app.js">
+    </script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="https://prince0ftime.github.io/Bootstrap-Portfolio/">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        My links
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="https://github.com/Prince0fTime" target="_blank">My
+                            github</a>
+                        <div class="dropdown-divider" q></div>
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/peter-winston-3a546b171/" target="_blank">My
+                            Linkedin</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://prince0ftime.github.io/RPG-GAME/">RPG-GAME</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://prince0ftime.github.io/Word-Guess-Game/">Word-Guess-Game</a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>welcome to Gif Engine</h1>
+                <div id="gif-buttons" class="row">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Gif Search</h1>
+
+                <!-- This form will be where users input data -->
+                <form id="gif-form">
+                    <label for="gif-input">Search for a gif</label>
+                    <input type="text" id="gif-input"><br>
+
+
+                    <label for="number-input" class="col-5 col-form-label"><p>Number of Gifs to output max is 25</p></label>
+                    <div class="col-5">
+                        <input class="form-control" type="number" value="10" id="number-input">
+                    </div>
+
+                    <!-- This button will trigger our AJAX call -->
+                    <input class="col-5" id="find-gif" type="submit" value="gif Search">
+                </form>
+
+            </div>
+        </div>
+
+
+
+        <div id="gif-view">
+
+        </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>
+
+
+</html>
