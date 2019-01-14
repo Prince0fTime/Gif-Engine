@@ -2,8 +2,8 @@ window.onload = function () {
 
 
 
-    // Initial array of topics
-    var topics = ["The Matrix", "The Notebook", "Mr. Nobody", "The Lion King"];
+    // Initial array of topics moves and games
+    var topics = ["The Matrix", "The Notebook", "Mr. Nobody", "The Lion King", "The Legend of Zelda", "mairo", "kirby"];
 
     function renderButtons() {
         $("#gif-buttons").empty();
