@@ -108,7 +108,14 @@ window.onload = function () {
         console.log(numberOfGifs);
         //is Search empty?
         if (Search !== "") {
-            topics.push(Search);
+            for (var i = 0; i < topics.length; i++) {
+                 if (Search !== topics[i]) {
+                  topics.push(Search);
+            };
+            
+      
+        };
+            //topics.push(Search);
             // renderButtons function call, rendering the list of buttons
             renderButtons();
             getGifs(Search, numberOfGifs);
