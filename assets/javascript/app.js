@@ -109,7 +109,9 @@ window.onload = function () {
         //is Search empty?
         if (Search !== "") {
             for (var i = 0; i < topics.length; i++) {
-                 if (Search !== topics[i]) {
+                var str1 = Search.replace(/\s+/g, '');
+                var str2 = topics[i].replace(/\s+/g, '');
+                 if (str1 !== str2) {
                   topics.push(Search);
             };
             
