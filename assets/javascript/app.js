@@ -113,6 +113,7 @@ window.onload = function () {
                 var str2 = topics[i].replace(/\s+/g, '');
                  if (str1 !== str2) {
                   topics.push(Search);
+                      Break;
             };
             
       
